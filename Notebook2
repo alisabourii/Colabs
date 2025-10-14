@@ -136,11 +136,31 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
-        "id": "DG1L7Z-iJDoX"
+        "id": "DG1L7Z-iJDoX",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c1061611-56da-46fd-9f87-a82304eefbfb"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "-1\n",
+            "72\n",
+            "3\n",
+            "3.0\n",
+            "2.5\n",
+            "1\n",
+            "23\n",
+            "26\n",
+            "16\n"
+          ]
+        }
+      ],
       "source": [
         "print(5 - 6)\n",
         "print(8 * 9)\n",
@@ -239,10 +259,31 @@
         "print('Peş peşe yazılabilir:\\n1/1\\t1/2\\n2/1\\t2/2')"
       ],
       "metadata": {
-        "id": "XT_NNpdHJgDb"
+        "id": "XT_NNpdHJgDb",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "7a39ff7b-a7a7-4548-89a5-8fbace1105dd"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bu derste ne yapmak lazım: \"çalışmak\".\n",
+            "Derse bu kadar uzak \t olmamalıyım\n",
+            "line1\n",
+            "line2\n",
+            "line3\n",
+            "field1\tfield2\tfield3\n",
+            "c:\\directory\\file\n",
+            "Peş peşe yazılabilir:\n",
+            "1/1\t1/2\n",
+            "2/1\t2/2\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -268,10 +309,28 @@
         "print(longstr)"
       ],
       "metadata": {
-        "id": "jTa2odabOUaT"
+        "id": "jTa2odabOUaT",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c26d097c-fdb7-423b-8e2b-fe91af58c3e7"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "    This is a triple quoted string.\n",
+            "    It goes on for multiple lines.\n",
+            "    It contains things like ' and \",\n",
+            "    which would normally have to be escaped,\n",
+            "    but anything goes in a triple quoted string.\n",
+            "\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -643,10 +702,30 @@
         "print(9*9)"
       ],
       "metadata": {
-        "id": "SpXt2MDDUFlF"
+        "id": "SpXt2MDDUFlF",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "727f24f5-5223-454d-e300-b1067f219adc"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n",
+            "18\n",
+            "27\n",
+            "36\n",
+            "45\n",
+            "54\n",
+            "63\n",
+            "72\n",
+            "81\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -692,10 +771,29 @@
         "  print(i * factor)"
       ],
       "metadata": {
-        "id": "1AzZAWNBUZ8U"
+        "id": "1AzZAWNBUZ8U",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "af75d08a-bb73-4234-8d33-0b5751b85774"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n",
+            "16\n",
+            "24\n",
+            "32\n",
+            "40\n",
+            "48\n",
+            "56\n",
+            "64\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -733,13 +831,28 @@
     {
       "cell_type": "code",
       "source": [
-        "#Kodu buraya yazın"
+        "#Kodu buraya yazın\n",
+        "ad = input(\"Adınızı giriniz: \")\n",
+        "print(ad,\"Tanıştığıma memnun oldum, !\")"
       ],
       "metadata": {
-        "id": "rRYmWqMtVo0N"
+        "id": "rRYmWqMtVo0N",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d4893b8c-e1b2-4791-e196-25496069ceed"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Adınızı giriniz: Ali\n",
+            "Ali Tanıştığıma memnun oldum, !\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -772,13 +885,28 @@
     {
       "cell_type": "code",
       "source": [
-        "#Kodu buraya yazın"
+        "#Kodu buraya yazın\n",
+        "kopek_yas = int(input(\" köpeğinizin yaşını giriniz? \"))\n",
+        "print(kopek_yas*5,\" köpek yılı =\",kopek_yas,\"insan yılı.\")"
       ],
       "metadata": {
-        "id": "d3elGMkmVrdv"
+        "id": "d3elGMkmVrdv",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "dcd8f5ae-5157-4820-fa25-0fc7a114e7d5"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " köpeğinizin yaşını giriniz? 3\n",
+            "15  köpek yılı = 3 insan yılı.\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -812,13 +940,29 @@
     {
       "cell_type": "code",
       "source": [
-        "#Kodu buraya yazın"
+        "#Kodu buraya yazın\n",
+        "gunSayisi = int(input(\"Gün sayınızı giriniz: \"))\n",
+        "tplSaat = 0\n",
+        "for i in range(1,tplSaat+1,1):\n",
+        "    print(i)"
       ],
       "metadata": {
-        "id": "vRPp4KyTWB57"
+        "id": "vRPp4KyTWB57",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a2cf8bf9-36b5-47d5-8750-7915cb2cfb6d"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 14,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Gün sayınızı giriniz: 3\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
