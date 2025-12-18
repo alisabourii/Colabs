@@ -1,4 +1,4 @@
-class campusCard:
+class CampusCard:
     #  class attributes
     __cards__ = []
 
@@ -13,11 +13,11 @@ class campusCard:
         self.typeOFCard = typeOFCard
         self.transactions = {}
 
-        campusCard.__cards__.append(self)
+        CampusCard.__cards__.append(self)
 
     def get_all_cards(self=None):
-        return campusCard.__cards__
-    
+        return CampusCard.__cards__
+
     def get_all_transactions(self):
         return self.transactions
 
@@ -42,7 +42,7 @@ class campusCard:
             otherCard.transactions["Money Transfer (+)"] = amount
 
     def total_mony_in_System(self=None)-> int | float:
-        att = campusCard.get_all_cards()
+        att = CampusCard.get_all_cards()
         total = 0
         for i in range(len(att)):
             total += att[i].balance
@@ -95,9 +95,9 @@ class campusCard:
         self.transactions["Minibus fee"] = paymentFee
 
 
-std = campusCard("Ali SABOURI",100, "StundetCard")
-staff = campusCard("Abdullah BALCI",200, "StaffCard")
-guest = campusCard("Kayra ÖZDEMİR",50, "GeustCard")
+std = CampusCard("Ali SABOURI",100, "StundetCard")
+staff = CampusCard("Abdullah BALCI",200, "StaffCard")
+guest = CampusCard("Kayra ÖZDEMİR",50, "GeustCard")
 
 # Zorunlu Bölümler test
 
@@ -111,7 +111,7 @@ print("guest new Balance:", guest.get_balance())
 guest.spend_money(100)
 guest.spend_money(100) # Control Done!!-> You don't have enough money
 
-totaly = campusCard.total_mony_in_System()
+totaly = CampusCard.total_mony_in_System()
 print("System Totaly: ",totaly)
 
 
