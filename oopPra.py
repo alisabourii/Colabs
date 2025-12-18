@@ -17,6 +17,7 @@ class campusCard:
 
     def get_all_cards(self=None):
         return campusCard.__cards__
+    
     def get_all_transactions(self):
         return self.transactions
 
